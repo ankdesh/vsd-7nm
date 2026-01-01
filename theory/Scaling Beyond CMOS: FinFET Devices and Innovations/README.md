@@ -1,1 +1,39 @@
-.
+# Scaling Beyond CMOS: FinFET Devices and Innovations
+
+### CMOS Evolution and Next Gen Candidates
+![Screenshot](Screenshot%202025-12-31%20104743.png)
+- [The 1nm Roadmap Six Vectors of CMOS](compressed_The_1nm_Roadmap_Six_Vectors_of_CMOS.pdf)
+
+### FINFET Devices 
+![Screenshot](Screenshot%202025-12-31%20113253.png)
+![Screenshot](Screenshot%202025-12-31%20113629.png)
+
+
+### CMOS Technology Inflection Points
+![Screenshot](Screenshot%202025-12-31%20144444.png)
+![Screenshot](Screenshot%202025-12-31%20150803.png)
+![Infographic](unnamed%20(3).png)
+
+### Standard Cell Area Scaling And Variability
+![Screenshot](image.png)
+![Screenshot](image1.png)
+![Screenshot](Screenshot%202025-12-31%20152318.png)
+![Infographic](unnamed%20(2).png)
+
+### Parasitics Resistance And Capacitance
+![Screenshot](Screenshot%202025-12-31%20153249.png)
+![Infographic](unnamed%20(1).png)
+
+### 3D-Structures
+![Screenshot](Screenshot%202025-12-31%20172809.png)
+![Screenshot](Screenshot%202025-12-31%20172825.png)
+- [TMDs Restore Transistor Control](compressed_TMDs_Restore_Transistor_Control.pdf)
+
+### BOEL Innovations
+![Screenshot](Screenshot%202025-12-31%20174313.png)
+![Screenshot](Screenshot%202025-12-31%20174334.png)
+
+![Infographic](unnamed.png)
+![Infographic](unnamed%20(4).png)
+- [Power From Below Scaling the Chip](compressed_Power_From_Below_Scaling_the_Chip.pdf)
+- [2D Materials 1 Nanometer Transistors](compressed_2D_Materials_1_Nanometer_Transistors.pdf)
