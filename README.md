@@ -4,7 +4,7 @@ This repository contains materials, assignments, and simulations related to 7nm 
 
 ## Project Structure
 
-### [assign](assign)
+### Assignment folder
 Contains assignment work and simulation setups.
 - **[assign1](assign/assign1)**: Assignment 1
 - **[assign2](assign/assign2)**: Assignment 2
