@@ -1,5 +1,7 @@
 # BSIM-CMG Model Setup Guide
 
+** NOTE: The binary file created with this did not work for me for spice simulations. I used the binary file provioded by VSD from the Ref_from_vsd/asap_7nm_Xschem/bsimcmg.osdi **
+
 This guide describes how to compile the BSIM-CMG Verilog-A model using the OpenVAF compiler to generate an OSDI shared library for NGSPICE.
 
 ## Prerequisites

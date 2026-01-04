@@ -11,7 +11,8 @@ V2 vdd GND 0.7
 .control
     run
     set xbrushwidth=3
-    plot nfet_out nfet_in
+    * plot nfet_out nfet_in
+    meas dc v_th when nfet_out=nfet_in
 .endc
 
 
@@ -89,7 +90,7 @@ V2 vdd GND 0.7
 ************************************************************
 **)
 .control
-pre_osdi /home/ankdesh/explore/vsd-7nm/setup/bsimcmg.osdi
+pre_osdi /home/ankdesh/explore/vsd-7nm/Ref_from_vsd/asap_7nm_Xschem/bsimcmg.osdi
 .endc
 
 
@@ -162,7 +163,7 @@ pre_osdi /home/ankdesh/explore/vsd-7nm/setup/bsimcmg.osdi
 ************************************************************
 **)
 .control
-pre_osdi /home/ankdesh/explore/vsd-7nm/setup/bsimcmg.osdi
+pre_osdi /home/ankdesh/explore/vsd-7nm/Ref_from_vsd/asap_7nm_Xschem/bsimcmg.osdi
 .endc
 
 
