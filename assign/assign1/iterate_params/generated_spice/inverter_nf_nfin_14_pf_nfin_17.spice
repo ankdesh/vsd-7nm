@@ -1,7 +1,7 @@
 ** sch_path: /home/hprcse/Finfet/inverter_finfet.sch
 **.subckt inverter_finfet
-Xpfet1 nfet_out nfet_in vdd vdd asap_7nm_pfet l=7e-009 nfin={{pfet_nfin}}
-Xnfet1 nfet_out nfet_in GND GND asap_7nm_nfet l=7e-009 nfin={{nfet_nfin}}
+Xpfet1 nfet_out nfet_in vdd vdd asap_7nm_pfet l=7e-009 nfin=17
+Xnfet1 nfet_out nfet_in GND GND asap_7nm_nfet l=7e-009 nfin=14
 V1 nfet_in GND pulse(0 0.7 20p 10p 10p 20p 500p 1)
 V2 vdd GND 0.7
 **** begin user architecture code

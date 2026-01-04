@@ -1,7 +1,7 @@
 ** sch_path: /home/hprcse/Finfet/inverter_finfet.sch
 **.subckt inverter_finfet
-Xpfet1 nfet_out nfet_in vdd vdd asap_7nm_pfet l=7e-009 nfin={{pfet_nfin}}
-Xnfet1 nfet_out nfet_in GND GND asap_7nm_nfet l=7e-009 nfin={{nfet_nfin}}
+Xpfet1 nfet_out nfet_in vdd vdd asap_7nm_pfet l=8e-09 nfin=14
+Xnfet1 nfet_out nfet_in GND GND asap_7nm_nfet l=7e-09 nfin=14
 V1 nfet_in GND pulse(0 0.7 20p 10p 10p 20p 500p 1)
 V2 vdd GND 0.7
 **** begin user architecture code
@@ -71,7 +71,7 @@ Vuniq in 0 DC 0.545
 **** begin user architecture code
 
 .subckt asap_7nm_pfet S G D B l=7e-009 nfin=14
-	npmos_finfet S G D B BSIMCMG_osdi_P l=l nfin=nfin
+	npmos_finfet S G D B BSIMCMG_osdi_P l=l nfin=14
 .ends asap_7nm_pfet
 
 .model BSIMCMG_osdi_P BSIMCMG_va (
@@ -145,7 +145,7 @@ pre_osdi /home/ankdesh/explore/vsd-7nm/Ref_from_vsd/asap_7nm_Xschem/bsimcmg.osdi
 
 
 .subckt asap_7nm_nfet S G D B l=7e-009 nfin=14
-	nnmos_finfet S G D B BSIMCMG_osdi_N l=l nfin=nfin
+	nnmos_finfet S G D B BSIMCMG_osdi_N l=l nfin=14
 .ends asap_7nm_nfet
 
 .model BSIMCMG_osdi_N BSIMCMG_va (

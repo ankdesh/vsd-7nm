@@ -1,0 +1,120 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: ** sch_path: /home/hprcse/finfet/inverter_finfet.sch
+
+Warning: Model issue on line 77 :
+  .model bsimcmg_osdi_p bsimcmg_va ( type=0 version=107 bulkmod=1 igcmod=1 ...
+unrecognized parameter (version) - ignored
+unrecognized parameter (coremod) - ignored
+unrecognized parameter (capmod) - ignored
+unrecognized parameter (nseg) - ignored
+unrecognized parameter (etaqm) - ignored
+
+Warning: Model issue on line 151 :
+  .model bsimcmg_osdi_n bsimcmg_va ( type=1 version=107 bulkmod=1 igcmod=1 ...
+unrecognized parameter (version) - ignored
+unrecognized parameter (coremod) - ignored
+unrecognized parameter (capmod) - ignored
+unrecognized parameter (nseg) - ignored
+unrecognized parameter (etaqm) - ignored
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 701
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 701
+v_th                =  3.147896e-01
+max_gain            =  6.512757e+00 at=  3.190000e-01
+vil                 =  3.175192e-01
+voh                 =  2.970930e-01
+vih                 =  3.197823e-01
+vol                 =  2.823557e-01
+v_th = 3.147896e-01
+max_gain = 6.512757e+00
+vil = 3.175192e-01
+voh = 2.970930e-01
+vih = 3.197823e-01
+vol = 2.823557e-01
+nmh = -2.26893e-02
+nml = 3.516350e-02
+gm_max              =  1.092367e-03 at=  3.990000e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+nfet_out                              0.699455
+nfet_in                                      0
+vdd                                        0.7
+in                                       0.545
+vuniq#branch                                 0
+v2#branch                         -9.79551e-07
+v1#branch                          7.04116e-12
+
+
+No. of Data Rows : 120
+tpr                 =  2.500000e-11
+tpf                 =  2.503903e-11
+id_pwr              =  -1.63884e-15 from=  2.00000e-11 to=  6.00000e-11
+tpr = 2.500000e-11
+tpf = 2.503903e-11
+tp = 2.501951e-11
+id_pwr = -1.63884e-15
+pwr = -1.14719e-15
+power = 2.867975e-05
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+nfet_out                              0.699455
+nfet_in                                      0
+vdd                                        0.7
+in                                       0.545
+vuniq#branch                                 0
+v2#branch                         -9.79551e-07
+v1#branch                          7.04116e-12
+
+
+No. of Data Rows : 71
+tr                  =  2.100000e-11
+tf                  =  2.321168e-11
+t_delay = 4.421168e-11
+f = 2.261846e+10
+binary raw file "iterate_params/generated_spice/inverter_nf_nfin_17_pf_nfin_11.spice.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+No. of Data Columns : 8  
+
+No. of Data Rows : 701
+
+Total analysis time (seconds) = 0.333953
+
+Total elapsed time (seconds) = 0.340 
+
+Total DRAM available = 15946.836 MB.
+DRAM currently available = 7824.215 MB.
+Maximum ngspice program size =  528.789 MB.
+Current ngspice program size =   14.281 MB.
+
+Shared ngspice pages =   11.660 MB.
+Text (code) pages =    5.852 MB.
+Stack = 0 bytes.
+Library pages =   59.387 MB.
+
